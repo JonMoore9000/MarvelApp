@@ -56,6 +56,16 @@ button:hover {
 	/*border: 6px solid red;*/
 }
 
+.heroName {
+	color: red;
+	font-size: 22px;
+}
+
+.heroImage {
+	width: 300px;
+	height: 230px;
+}
+
 .js-query {
 	font-size: 20px;
 	font-family: 'Permanent Marker', Helvetica;
@@ -65,4 +75,3 @@ button:hover {
 	font-size: 20px;
 	font-family: 'Permanent Marker', Helvetica;
 }
-
