@@ -52,7 +52,7 @@ function displayData(apiResults) {
 				comics = '<p> No comics found </p>';
 			}
 
-			 return '<p>' + '<strong class="heroName">' + item.name + '</strong>' + '<br>' + '<img class="heroImage" src="' 
+			 return '<p>' + '<strong class="heroName">' + item.name + '</strong>' + '<p class="heroWords">' + item.description + '</p>' + '<br>' + '<img class="heroImage" src="' 
 			 + item.thumbnail.path + '.jpg' + '">' + '<br>' + comics + '</p>';
 
 			});
