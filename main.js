@@ -38,11 +38,23 @@ function displayData(apiResults) {
 	if(apiResults.data.results) {
 		resultElement = apiResults.data.results.map(function(item) {
 
-			var comics = item.comics.items.map(function(comic) {
-				return '<span class="comicTitles">' +comic.name + '<br></span>' ;
+			var comics = '';
+
+			if (item.comics.items.length) {
+
+			 item.comics.items.forEach(function(comic) {
+				comics +=  + '<span class="comicTitles">' + comic.name + '<br></span>' ;
 			});
 
-			 return '<p>' + comics + '</p>';
+			}
+
+			else {
+				comics = '<p> No comics found </p>';
+			}
+
+			 return '<p>' + '<strong class="heroName">' + item.name + '</strong>' + '<br>' + '<img class="heroImage" src="' 
+			 + item.thumbnail.path + '.jpg' + '">' + '<br>' + comics + '</p>';
+
 			});
 
 	}
