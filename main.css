@@ -1,0 +1,66 @@
+body {
+	background-image: url(http://vignette1.wikia.nocookie.net/steamtradingcards/images/1/16/Marvel_Heroes_Background_Campbell_Group_Shot.jpg/revision/latest?cb=20130930014940);
+	background-size: cover !important;
+	background-position: fixed !important;
+	background-attachment: fixed;
+}
+
+* {
+	box-sizing: border-box;
+	/*border: 1px solid green;*/
+}
+
+.theForm {
+	margin-top: 60px;
+	text-align: center;
+	font-family: 'Permanent Marker', Helvetica;
+	font-size: 24px;
+	background-color: white;
+	padding: 10px;
+	vertical-align: middle;
+	border-radius: 3px;
+	border: 6px solid red;
+}
+
+h3 {
+	margin-top: 1px;
+}
+
+input {
+	border: 3px solid red;
+	border-radius: 3px;
+	height: 40px;
+}
+
+button {
+	border: 3px solid red;
+	background-color: white;
+	border-radius: 3px;
+	height: 40px;
+}
+
+button:hover {
+	background-color: red;
+	color: white;
+}
+
+.theResults {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Permanent Marker', Helvetica;
+	font-size: 18px;
+	background-color: white;
+	border-radius: 3px;
+	/*border: 6px solid red;*/
+}
+
+.js-query {
+	font-size: 20px;
+	font-family: 'Permanent Marker', Helvetica;
+}
+
+.js-button {
+	font-size: 20px;
+	font-family: 'Permanent Marker', Helvetica;
+}
+
