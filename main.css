@@ -63,19 +63,15 @@ button:hover {
 }
 
 .heroWords {
-<<<<<<< HEAD
 	width: 600px;
 	color: black;
 	margin-left: 70px;
 	margin-bottom: 5px;
-
-=======
 	font-family: 'Permanent Marker', Helvetica;
 	font-size: 13px;
 	color: black;
 	padding-right: 40px;
 	padding-left: 40px;
->>>>>>> master
 }
 
 .heroImage {
