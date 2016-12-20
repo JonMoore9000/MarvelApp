@@ -2,9 +2,10 @@
 
 body {
 	background-image: url(http://vignette1.wikia.nocookie.net/steamtradingcards/images/1/16/Marvel_Heroes_Background_Campbell_Group_Shot.jpg/revision/latest?cb=20130930014940);
-	background-size: cover !important;
-	background-position: fixed !important;
+	background-size: cover;
+	background-position: fixed;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 * {
@@ -59,6 +60,14 @@ button:hover {
 .heroName {
 	color: red;
 	font-size: 22px;
+}
+
+.heroWords {
+	width: 600px;
+	color: black;
+	margin-left: 70px;
+	margin-bottom: 5px;
+
 }
 
 .heroImage {
