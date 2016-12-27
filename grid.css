@@ -18,7 +18,6 @@
   display: table;
 }
 
-.row::after {
   clear:both;
 }
 
