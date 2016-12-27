@@ -2,7 +2,7 @@
 
 Capstone project letting the user find comics via their favorite super hero.
 
-![Screenshots](http://jonmoore9000/github-images/screenshot1.jpeg)
+![Screenshots](jonmoore9000.github.com/marvelapp/img/screenshot1.jpeg)
 
 ## Summary
 
