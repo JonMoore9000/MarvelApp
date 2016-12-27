@@ -2,7 +2,7 @@
 
 Capstone project letting the user find comics via their favorite super hero.
 
-![Screenshots][../images/screenshot1.jpeg] 
+![Screenshots](../images/screenshot1.jpeg) 
 
 ## Summary
 
