@@ -118,8 +118,10 @@ function backPage() {
 function submitSearch() {
 	$('.js-form').submit(function(event) {
 		event.preventDefault();
+		$('.pageButtons').removeClass('invisible');
 		var query = $('.js-query').val();
 		getData(query, displayData, 0);
+
 	});
 
 };

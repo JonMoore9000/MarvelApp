@@ -3,7 +3,6 @@
 body {
 	background-image: url(../images/marvelimage.jpg);
 	background-size: cover;
-	background-position: fixed;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -11,13 +10,12 @@ body {
 
 * {
 	box-sizing: border-box;
-	/*border: 1px solid green;*/
+	font-family: 'Permanent Marker', Helvetica;
 }
 
 .theForm {
 	margin-top: 60px;
 	text-align: center;
-	font-family: 'Permanent Marker', Helvetica;
 	font-size: 24px;
 	background-color: white;
 	padding: 10px;
@@ -51,11 +49,9 @@ button:hover {
 .theResults {
 	margin-top: 20px;
 	text-align: center;
-	font-family: 'Permanent Marker', Helvetica;
 	font-size: 18px;
 	background-color: white;
 	border-radius: 3px;
-	/*border: 6px solid red;*/
 }
 
 .heroName {
@@ -68,7 +64,6 @@ button:hover {
 	color: black;
 	margin-left: 70px;
 	margin-bottom: 5px;
-	font-family: 'Permanent Marker', Helvetica;
 	font-size: 13px;
 	color: black;
 	padding-right: 40px;
@@ -80,22 +75,16 @@ button:hover {
 	height: 230px;
 }
 
-.js-query {
-	font-size: 20px;
-	font-family: 'Permanent Marker', Helvetica;
-}
-
+.js-query,
 .js-button {
 	font-size: 20px;
-	font-family: 'Permanent Marker', Helvetica;
 }
 
-.prev {
-	font-family: 'Permanent Marker', Helvetica;
-	font-size: 13px;
-}
-
+.prev,
 .next {
-	font-family: 'Permanent Marker', Helvetica;
 	font-size: 13px;
+}
+
+.invisible {
+	display: none;
 }
