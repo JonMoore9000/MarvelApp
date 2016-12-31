@@ -76,7 +76,7 @@ function nextPage(state) {
 		state.currentOffset += 5;
 		var query = $('.js-query').val();
 		getData(query, displayData, state.currentOffset);
-	}
+}
 
 function prevPage(state) {
 		if (state.currentOffset >= 5) {
