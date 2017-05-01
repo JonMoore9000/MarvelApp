@@ -19,6 +19,6 @@ This project used multiple technologies:
 - jQuery
 - Sublime text editor
 
-My Marvel Search App is available on GitHub: [public respository][marvelapp]
+My Marvel Search App is available on GitHub: [Marvel Comic Search App][marvelapp]
 
-[marvelapp]: <https://github.com/JonMoore9000/MarvelApp>
+[marvelapp]: https://jonmoore9000.github.io/MarvelApp/
